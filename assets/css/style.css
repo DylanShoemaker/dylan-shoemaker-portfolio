@@ -94,7 +94,7 @@ background: #e1e1e1;
 
 .step {
     padding-bottom: 50px;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -106,7 +106,7 @@ background: #e1e1e1;
     font-size: 46px;
     margin: 20px 5px 0 100px;
     padding-right: 10px;
-    flex: 1 20%;
+    flex: 1 5%;
     text-align: right;
     max-width: 14%;
 }
@@ -118,31 +118,95 @@ background: #e1e1e1;
     margin: 20px 5px 0 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    flex: 2 40%;
+    flex: 2 50%;
     border-left: 4px solid var(--primary-color);
     padding-left: 50px;
-    padding-bottom: 25px;
-
-    
+    padding-bottom: 25px; 
 }
 
+
+.run-buddy {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    opacity: .7;
+    border: 5px solid var(--tertiary-color);
+}
+
+.run-buddy:hover {
+    opacity: 1;
+}
+
+.tag {
+    position: absolute;
+    bottom: 16px;
+    left: 0px;
+    background-color: var(--tertiary-color);
+    opacity: 1;
+}
+.tag p1 {
+    font-size: 20px;
+}
+.horiseon {
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    opacity: .7;
+    flex: 1;
+}
+
+.horiseon img {
+    max-width:600px;
+    border: 5px solid var(--tertiary-color);
+}
+
+.horiseon:hover {
+    opacity: 1;
+}
+
+.place-holder {
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    opacity: .7;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.place-holder img {
+    max-width: 500px;
+    border: 5px solid var(--tertiary-color);
+}
+
+.place-holder:hover {
+    opacity: 1;
+}
+/*content ends*/
 /*footer start*/
 footer nav ul {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    list-style: none;
+    align-content: flex-start;
+    justify-content: flex-start;
+    list-style: none; 
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
+
 footer nav ul li a {
-    padding: 10px 20px;
     font-weight: bolder;
     font-size: 1.55vw;
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 2px;
-    margin-left: 5px;
-    margin-right: 5px;
+
+    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
 }
+
