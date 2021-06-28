@@ -68,7 +68,7 @@ header nav ul li a {
 .hero {
     padding: 20px 35px;
     display: flex;
-    justify-content:flex-end;
+    justify-content:space-between;
     align-items: flex-end;
     flex-wrap: wrap;
     background-image: url('../images/wavy.jpg');
@@ -82,6 +82,12 @@ header nav ul li a {
     background-color: var(--primary-color);
     padding: 10px 10px;
     margin-right: 50px;
+}
+.hero img {
+    width: 50%;
+    height: auto;
+
+
 }
 /*hero end*/
 /*contents start*/
