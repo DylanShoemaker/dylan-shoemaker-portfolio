@@ -33,26 +33,27 @@ header h1 {
     align-items: center;
     justify-content: center;
     padding: 5px 10px 5px 75px;
-
 }
 
 header a {
     text-decoration: none;
     color: var(--primary-color);
+    
 }
   
 header nav {
     margin: 7px 0;
 }
-
+header nav :last-child {
+    margin-right: 25px;
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     list-style: none;
-
+    width: 100%;
 }
-  
+
 header nav ul li a {
     padding: 10px 20px;
     font-weight: bolder;
@@ -98,98 +99,124 @@ header nav ul li a {
 background: #e1e1e1;
 }
 
-.step {
-    padding-bottom: 50px;
-    width: 90%;
+.project-container {
+    margin: 30px auto;
+    padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;  
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    
+    
+}
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .step h2 {
     color: #024e76;
     font-size: 46px;
-    margin: 20px 5px 0 100px;
-    padding-right: 10px;
-    flex: 1 5%;
-    text-align: right;
-    max-width: 14%;
+    margin-top: 10px;
+    flex: 1 16%;
+
 }
 .step p {
     color: #024e76;
     font-size: 26px;
 }
+
 .aside {
-    margin: 20px 5px 0 0;
     display: flex;
-    flex-wrap: wrap;
-    flex: 2 50%;
+    flex-direction: row;
+    margin: 30px 5px;
     border-left: 4px solid var(--primary-color);
     padding-left: 50px;
     padding-bottom: 25px; 
+    flex: 12 33%;
 }
 
 
-.run-buddy {
+.run-buddy , .horiseon , .place-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
-    text-align: center;
     font-size: 15px;
     opacity: .7;
-    border: 5px solid var(--tertiary-color);
+    justify-content: space-between;
+    margin: 25px 25px 25px 25px;
+    
+    
 }
 
+
+.run-buddy img {
+    width: 100%; /* width of container */
+    height: auto;
+    max-height: 100%; /* height of container */
+    max-width: 100%;
+    object-fit: cover;
+    border: 5px solid var(--tertiary-color);
+}
 .run-buddy:hover {
     opacity: 1;
 }
 
-.tag {
-    position: absolute;
-    bottom: 16px;
-    left: 0px;
-    background-color: var(--tertiary-color);
-    opacity: 1;
-}
-.tag p1 {
-    font-size: 20px;
-}
-.horiseon {
-    display: inline-flex;
-    flex-wrap: wrap;
-    position: relative;
-    text-align: center;
-    font-size: 15px;
-    opacity: .7;
-    flex: 1;
-}
+
 
 .horiseon img {
-    max-width:600px;
+    display: block;
+    width: 35em; /* width of container */
+    max-width: 100%;
+    height: 24em; /* height of container */
+    max-height: 100%;
+    object-fit: cover;
     border: 5px solid var(--tertiary-color);
+    float: left;
+    margin-right: 5px;
 }
 
 .horiseon:hover {
     opacity: 1;
 }
 
-.place-holder {
-    display: inline-flex;
-    flex-wrap: wrap;
-    position: relative;
-    text-align: center;
-    font-size: 15px;
-    opacity: .7;
-    flex: 1;
-    align-items: flex-end;
-}
 
 .place-holder img {
-    max-width: 500px;
+    display: block;
+    width: 35em; /* width of container */
+    max-width: 100%;
+    height: 24em; /* height of container */
+    max-height: 100%;
+    object-fit: cover;
     border: 5px solid var(--tertiary-color);
+    float: right;
+    margin-left: 5px;
 }
 
 .place-holder:hover {
     opacity: 1;
+}
+
+.tag {
+    display: block;
+    position: absolute;
+    align-items: center;
+    bottom: 50%;
+    background-color: var(--tertiary-color);
+    opacity: 1;
+}
+
+.tag p1 {
+    font-size: 20px;
+}
+.step .place-holder .tag {
+    left: 10px
 }
 /*content ends*/
 /*footer start*/
@@ -210,7 +237,6 @@ footer nav ul li a {
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 2px;
-
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
