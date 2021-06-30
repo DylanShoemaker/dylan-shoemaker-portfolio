@@ -14,10 +14,10 @@ Webpage that displays the projects that I have been working on with many more to
 
         * HTML
         * CSS
-	* Visual Sudio Code
+	* Visual Studio Code
         * Github
         * Gitbash
         * Gitpages
 
 #### Screenshot
-![Example screenshot](assets/images/screenshot.png)
+![Example screenshot](https://github.com/DylanShoemaker/dylan-shoemaker-portfolio/blob/main/assets/images/screenshot.PNG)
