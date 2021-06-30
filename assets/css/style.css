@@ -244,8 +244,8 @@ footer nav ul li a {
     margin-right: 20px;
     text-decoration: none;
 }
-
-.short-text { display: none; }
+/*footer start*/
+.short-text { display: none; }  /* for changing how the h3's appear after the page breaks at 980px */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
