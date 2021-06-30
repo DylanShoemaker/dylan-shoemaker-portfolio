@@ -110,8 +110,9 @@ background: #e1e1e1;
     
     
 }
+
 .step {
-    margin: 50px auto;
+    margin: 50px auto 0px auto;
     padding-bottom: 50px;
     width: 80%;
     display: flex;
@@ -119,12 +120,19 @@ background: #e1e1e1;
 
 }
 
+.contact-me .step {
+    margin: 0 auto 0 auto;
+}
+
 .step h2 {
     color: #024e76;
-    font-size: 46px;
+    font-size: 3vw;
     margin-top: 10px;
-    flex: 1 16%;
-
+    flex: 1 15%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 1em;
+    
 }
 .step p {
     color: #024e76;
@@ -172,9 +180,9 @@ background: #e1e1e1;
 
 .horiseon img {
     display: block;
-    width: 35em; /* width of container */
+    width: 35vw; /* width of container */
     max-width: 100%;
-    height: 24em; /* height of container */
+    height: 24vw; /* height of container */
     max-height: 100%;
     object-fit: cover;
     border: 5px solid var(--tertiary-color);
@@ -189,9 +197,9 @@ background: #e1e1e1;
 
 .place-holder img {
     display: block;
-    width: 35em; /* width of container */
+    width: 35vw; /* width of container */
     max-width: 100%;
-    height: 24em; /* height of container */
+    height: 24vw; /* height of container */
     max-height: 100%;
     object-fit: cover;
     border: 5px solid var(--tertiary-color);
@@ -224,7 +232,7 @@ footer nav ul {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     list-style: none; 
     padding-top: 25px;
     padding-bottom: 25px;
@@ -233,11 +241,147 @@ footer nav ul {
 
 footer nav ul li a {
     font-weight: bolder;
-    font-size: 1.55vw;
+    font-size: 1.5vw;
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 2px;
+    padding-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
+
     text-decoration: none;
 }
+.short-text { display: none; }
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 1em;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 5.0vw;
+       
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: unset;
+        
+    }
+
+   
+    .step {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto 0px auto;
+        
+        
+    }
+    .step p {
+        font-size: 2.5em;
+    }
+    .step h2 {
+        display: inline;
+        border-bottom: 4px solid var(--primary-color);
+        padding-bottom: 2px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+  
+    .aside {
+        border-left: auto hidden var(--primary-color);
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 0px;
+    }
+    #work .step {
+        margin-top: 0px;
+    }
+    .project-container {
+        margin-top: 0px;
+    }
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+    
+    
+
+      
+ 
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .step h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+    
+    .step-info {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .step-img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .step-text {
+        flex: 100%;  
+    }
+} 
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero-form button {
+        width: 100%;
+    }
+    
+    .section-title {
+        width: 95%;
+    }
+    
+    .intro p {
+        width: 100%;
+    }
+    
+    .trainer {
+        flex: 0 100%;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-info > * {
+        flex: 0 100%;
+    }
+    .contact-form {
+        order: 3;
+    }
+}
+/* Thanks for taking the time to look at my work*/
