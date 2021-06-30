@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 Please have a look at my recent work, feedback is much appreciated!
 
 
