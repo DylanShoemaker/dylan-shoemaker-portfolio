@@ -14,11 +14,10 @@ Webpage that displays the projects that I have been working on with many more to
 
         * HTML
         * CSS
-	    * Visual Sudio Code
+	* Visual Sudio Code
         * Github
         * Gitbash
         * Gitpages
 
 #### Screenshot
-![Example screenshot](assets/images/screenshot.png) 
-https://dylanshoemaker.github.io/dylan-shoemaker-portfolio/
+![Example screenshot](assets/images/screenshot.png)
