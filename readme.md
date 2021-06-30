@@ -12,12 +12,12 @@ Webpage that displays the projects that I have been working on with many more to
 
 ### Technologies Used
 
-        * HTML
-        * CSS
-	* Visual Studio Code
-        * Github
-        * Gitbash
-        * Gitpages
+    * HTML
+    * CSS
+    * Visual Studio Code
+    * Github
+    * Gitbash
+    * Gitpages
 
 #### Screenshot
 ![Example screenshot](https://github.com/DylanShoemaker/dylan-shoemaker-portfolio/blob/main/assets/images/screenshot.PNG)
