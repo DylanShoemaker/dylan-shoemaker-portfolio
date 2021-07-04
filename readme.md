@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 Please have a look at my recent work, feedback is much appreciated!
 
 
@@ -12,12 +12,12 @@ Webpage that displays the projects that I have been working on with many more to
 
 ### Technologies Used
 
-        * HTML
-        * CSS
-	    * Visual Sudio Code
-        * Github
-        * Gitbash
-        * Gitpages
+    * HTML
+    * CSS
+    * Visual Studio Code
+    * Github
+    * Gitbash
+    * Gitpages
 
 #### Screenshot
-![ScreenShot](https://github.com/DylanShoemaker/dylan-shoemaker-portfolio/blob/main/assets/images/screenshot.PNG)
+![Example screenshot](https://github.com/DylanShoemaker/dylan-shoemaker-portfolio/blob/main/assets/images/screenshot.PNG)
