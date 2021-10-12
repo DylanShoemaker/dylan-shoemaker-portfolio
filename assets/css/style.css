@@ -386,7 +386,51 @@ footer nav ul li a {
     footer nav ul li a {
         font-size: 2.5vw;
     }
- 
+    .game-stork img {
+   
+        height: auto;
+        min-height: auto;
+        max-height: 100%; /* height of container */
+        width: 999vw;
+        min-width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border: 5px solid var(--tertiary-color);
+    }
+    .group img {
+   
+        height: auto;
+        min-height: auto;
+        max-height: 100%; /* height of container */
+        width: 999vw;
+        min-width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border: 5px solid var(--tertiary-color);
+    }
+    .horiseon img {
+   
+        height: auto;
+        min-height: auto;
+        max-height: 100%; /* height of container */
+        width: 999vw;
+        min-width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border: 5px solid var(--tertiary-color);
+    }
+    .jedkh img {
+   
+        height: auto;
+        min-height: auto;
+        max-height: 100%; /* height of container */
+        width: 999vw;
+        min-width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border: 5px solid var(--tertiary-color);
+    }
+
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
